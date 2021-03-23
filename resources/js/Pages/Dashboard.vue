@@ -25,5 +25,8 @@
             AppLayout,
             Welcome,
         },
+        mounted() {
+            console.log('Dashboard Component');
+        }
     }
 </script>
